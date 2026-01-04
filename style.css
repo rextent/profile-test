@@ -5,20 +5,51 @@
     padding: 10px;
     text-align: center;
 }
-.navi{
-    display: inline;
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 #about{
     background: linear-gradient(to right, #2A7B9B,#57C785,#EDDD53);
     height: 1500px;
     background-repeat: no-repeat;
     text-align: center;
-    height: 200px;
+    height: 250px;
     background-position: center;
+    max-width: 1100px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 5px;
 }
 #contact{
     border:3PX solid green ;
     background-color: antiquewhite;
+    margin: 15px;
+    padding: 15px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+}
+.footer{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0061ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.ult{
     margin: 15px;
     padding: 15px;
 }
