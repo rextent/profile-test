@@ -1,0 +1,24 @@
+.header{
+    background-color: aqua;
+    border:5px solid pink;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.navi{
+    display: inline;
+}
+#about{
+    background: linear-gradient(to right, #2A7B9B,#57C785,#EDDD53);
+    height: 1500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+    background-position: center;
+}
+#contact{
+    border:3PX solid green ;
+    background-color: antiquewhite;
+    margin: 15px;
+    padding: 15px;
+}
